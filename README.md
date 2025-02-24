@@ -1,3 +1,1 @@
-# JavaRush1
-# for my study
-Right, it's my readme file for project JavaRush1
+# Right, it's my first file for project JavaRush1
