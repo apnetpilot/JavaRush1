@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Front Project</title>
+    <title>Лучшие авиабилеты</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -12,14 +12,15 @@
             <ul class = "header_list">
                 <li class = "header_list-items">Корпоративным клиентам</li>
                 <li class = "header_list-items">Авиабилеты</li>
+                    <select></select>
                 <li class = "header_list-items">Справка</li>
+                    <select></select>
                 <li class = "header_list-items">
                     <img src="" alt="logo">
                     <select name="language">
-                        <option value="Русский">Русский</option>
+                        <option value="Русский">Русский </option>
                     </select>
                 </li>
-
             </ul>
         </div>
         <section class="header_search">
@@ -34,81 +35,357 @@
                 <div class = "subselect">Страхование</div>
             </div>
             <div class = "header_search-select">
-                <div class = "header_search-select-l">Откуда</div>
-                <div class = "header_search-select1-c">Куда</div>
+                <div class = "header_search-select-l">Откуда
+                    <input>
+                    <div>city</div>
+                    <img scr="" alt="arr">
+                </div>
+
+                <div class = "header_search-select1-c">Куда
+                <select>
+                    <option></option>
+                </select>
+                </div>
+
                 <div class = "header_search-select1-c">Туда - Обратно:
                     <div>
                         <button class="button_calendar">Календарь</button>
+                        <div class = "calendar">
+                            <div>
+                                <button>back</button>
+                                <button>to</button>
+                            </div>
+                            <div>month</div>
+                            <div>title</div>
+                            <div>days</div>
+                            <div>
+                                <button>Cancel</button>
+                                <button>OK</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class = "header_search-select1-r">Выберите пассажиров</div>
+                <script scr="js/scripts.js"></script>
+                <div class = "header_search-select1-r">Выберите пассажиров
+                    <button>Пассажиры, класс</button>
+                    <div></div>
+                        <span>Максимум 9 пассажиров</span>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <div>Взрослые</div>
+                                        <div>старше 12 лет</div>
+                                    </div>
+                                    <div>
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <div>Дети</div>
+                                        <div>2 - 12 лет</div>
+                                    </div>
+                                    <div>
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <div>Младенцы</div>
+                                        <div>до 2 лет</div>
+                                    </div>
+                                    <div>
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </li>
+                            </ul>
+                        <div>Класс</div>
+                        <div>
+                            <div>Любой</div>
+                            <div>Бизнес</div>
+                            <div>Эконом</div>
+                        </div>
+                        <button>ОК</button>
+                </div>
                 <div class = "header_search-gofind">Найти</div>
             </div>
-
-
+            <script> scr="js/scripts.js"</script>
+            <p>Сложный маршрур</p>
         </section>        
     </header>
 
     <main class = "main">
         <section class = "main_manage">
-            <p class = "main_manage_head">Управляйте вашими билетами в Telegram</p>
-
+            <div>
+                <p class = "main_manage_head">Управляйте вашими билетами в Telegram</p>
+                <div>
+                    <div>arr</div>
+                    <p>Доступ к билетам и кабинету</p>
+                </div>
+                <div>
+                    <div>arr</div>
+                    <p>Агентская поддержка</p>
+                </div>
+                <div>
+                    <div>arr</div>
+                    <p>FAQ</p>
+                </div>
+                <div>Посмотреть возможности</div>
+                <img src="" alt="paper">
+            </div>
         </section>
         <section class = "main_bus">
-            <p class = "main_bus_head">Билеты на автобус по Китаю и Европе</p>
-
+            <div>
+                <p class = "main_bus_head">Билеты на автобус по Китаю и Европе</p>
+                <div>
+                    <div>Arr</div>
+                    <p>Удобное сравнение цен</p>
+                </div>
+                <div>
+                    <div>Arr</div>
+                    <p>Актуальное расписание</p>
+                </div>
+                <div>Найти билеты</div>
+                <img src="" alt="bus">
+            </div>
         </section>
         <section class = "main_tickets">
-            <p class = "main_tickets_head">Популярные направления</p>
-
+            <div>
+                <div class = "main_tickets_head">Популярные направления</div>
+                <div>
+                    <p>Варшава; Милан</p>
+                    <p>от 771</p>
+                    <p>Варшава; Лондон</p>
+                    <p>от 1001</p>
+                    <p>Варшава; Аликанте</p>
+                    <p>от 1042</p>
+                    <p>Варшава; Мадрид</p>
+                    <p>от 1646</p>
+                    <p>Варшава; Барселона</p>
+                    <p>от 1663</p>
+                </div>
+                <div>
+                    <p>Варшава; Амстердам</p>
+                    <p>от 3256</p>
+                    <p>Варшава; Лиссабон</p>
+                    <p>от 3364</p>
+                    <p>Варшава; Париж</p>
+                    <p>от 4077</p>
+                    <p>Варшава; Нью-Йорк</p>
+                    <p>от 21277</p>
+                    <p>Варшава; Денпасар-Бали</p>
+                    <p>от 25573</p>
+                </div>
+            </div>
         </section>
-        <section class = "main_top">
-            <p class = "main_tickets_head">ТОП-10 авиакомпаний</p>
 
+        <section class = "main_top">
+            <div>
+                <div>
+                    <span>ТОП-10 авиакомпаний</span>
+                    <span>Подробнее</span>
+                </div>
+                <div>
+                    <div>
+                        <div>1</div>
+                        <div>Эмирейтс</div>
+                    </div>
+                    <div>
+                        <div>2</div>
+                        <div>Катар Эйрвейз</div>
+                    </div>
+                    <div>
+                        <div>3</div>
+                        <div>Тюркиш Эрлайнз</div>
+                    </div>
+                    <div>
+                        <div>4</div>
+                        <div>Сингапур Эйрлайнз</div>
+                    </div>
+                    <div>
+                        <div>5</div>
+                        <div>Кореан Эйр</div>
+                    </div>
+                    <div>
+                        <div>6</div>
+                        <div>Этихад Эйрвэйз</div>
+                    </div>
+                    <div>
+                        <div>7</div>
+                        <div>Катай Пасифик</div>
+                    </div>
+                    <div>
+                        <div>8</div>
+                        <div>Эйр Астана</div>
+                    </div>
+                    <div>
+                        <div>9</div>
+                        <div>Верджин Атлантик Эйрвэйз</div>
+                    </div>
+                    <div>
+                        <div>10</div>
+                        <div>Эйр Нью Зиланд</div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>star</div>
+                        <div>4.7</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.7</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.7</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.7</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.7</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.6</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.5</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.5</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.5</div>
+                    </div>
+                    <div>
+                        <div>star</div>
+                        <div>4.5</div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer class = "footer">
         <div class = "footer_icons">
-
+            <img src="" alt="IATA">
+            <img src="" alt="PCI">
+            <img src="" alt="VISA">
+            <img src="" alt="Master">
         </div>
         <div class = "footer_lists">
             <div class = "footer_list_li">
                 <div class="footer_lists_li_title">Страны</div>
-
+                <div>Испания</div>
+                <div>Турция</div>
+                <div>Египед</div>
+                <div>Грузия</div>
+                <div>Польша</div>
+                <div>Франция</div>
             </div>
             <div class = "footer_list_li">
                 <div class="footer_lists_li_title">Города</div>
-                
+                <div>Кишинев</div>
+                <div>Дубай</div>
+                <div>Варшава</div>
+                <div>Прага</div>
+                <div>Париж</div>
+                <div>Франквурт</div>
             </div>
             <div class = "footer_list_li">
                 <div class="footer_lists_li_title">Направления</div>
-                
+                <div>Кишинев - Стамбул</div>
+                <div>Кишинев - Анталья</div>
+                <div>Варшава - Торонто</div>
+                <div>Варшава - Париж</div>
+                <div>Кишинев - Тбилиси</div>
+                <div>Варшава - Стамбул</div>
             </div>
             <div class = "footer_list_li">
                 <div class="footer_lists_li_title">Аэропорты</div>
-                
+                <div>Шопен</div>
+                <div>Франфурт</div>
+                <div>Кишинев</div>
+                <div>Фиумичио</div>
+                <div>Стамбул</div>
+                <div>Шарль де Голь</div>
             </div>
             <div class = "footer_list_li">
-                <div class="footer_lists_li_title">Направления</div>
-                
+                <div class="footer_lists_li_title">Авиакомпании</div>
+                <div>Тюркиш</div>
+                <div>Wizz</div>
+                <div>Qatar</div>
+                <div>Ryanar</div>
+                <div>Air Baltic</div>
             </div>
             <div class = "footer_list_li">
                 <div class="footer_lists_li_title">Наши сервисы</div>
-                
+                <div>Рейтинг авиакомпаний</div>
+                <div>Сравнение цен</div>
+                <div>Расписание рейсов</div>
+                <div>Акции</div>
             </div>            
         </div>
         <div class = "footer_links">
-
+            <div>
+                <div>Все страны</div>
+                <img src="" alt="arrow">
+            </div>
+            <div>
+                <div>Все города</div>
+                <img src="" alt="arrow">
+            </div>
+            <div>
+                <div>Все направления</div>
+                <img src="" alt="arrow">
+            </div>
+            <div>
+                <div>Все аэропорты</div>
+                <img src="" alt="arrow">
+            </div>
+            <div>
+                <div>Все авиакомпании</div>
+                <img src="" alt="arrow">
+            </div>
+            <div>
+                <div>Карта сайта</div>
+                <img src="" alt="arrow">
+            </div>
         </div>
         <div class = "footer_partners">
-
+            <div>
+                <img src="" alt="ITN">
+                <span>TTN</span>
+            </div>
+            <div>Партнерская программа</div>
+            <div>
+                <img src="" alt="Google">
+                <span>Google Play</span>
+            </div>
+            <div>
+                <img src="" alt="Apple">
+                <span>App Store</span>
+            </div>
         </div>
         <div class = "footer_social">
-
+            <img src="" alt="fb">
+            <img src="" alt="inst">
+            <img src="" alt="telega">
         </div>
     </footer>
-
 <script src="js/script.js"></script>
 </body>
 </html>
